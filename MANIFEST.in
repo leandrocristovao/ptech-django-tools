@@ -1,0 +1,8 @@
+include README.md
+include LICENSE
+include pyproject.toml
+graft src/ptech_tools
+prune tests
+global-exclude __pycache__
+global-exclude *.py[cod]
+
